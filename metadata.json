@@ -1,0 +1,6 @@
+{
+  "name": "씨마스고등학교 급식",
+  "description": "씨마스고등학교 오늘의 급식 정보, 주간 식단표, 맞춤형 영양소 계산기 및 학생 프로필을 한눈에 관리하는 영양 가이드 애플리케이션입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

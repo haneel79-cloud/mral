@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@theme {
+  --font-sans: 'GmarketSans', 'Noto Sans KR', 'Plus Jakarta Sans', sans-serif;
+  --color-primary: #3c5500;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #4f6f00;
+  --color-on-primary-container: #c9f17c;
+  --color-secondary: #536500;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #d2ea7a;
+  --color-on-secondary-container: #576a00;
+  --color-tertiary: #485229;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #606a3f;
+  --color-on-tertiary-container: #dfeab3;
+  --color-tertiary-fixed: #dde8b2;
+  --color-tertiary-fixed-dim: #c1cc98;
+  --color-background: #fcf9f1;
+  --color-on-background: #1c1c17;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f6f3eb;
+  --color-surface-container: #f1eee6;
+  --color-surface-container-high: #ebe8e0;
+  --color-surface-container-highest: #e5e2db;
+  --color-on-surface: #1c1c17;
+  --color-on-surface-variant: #444939;
+  --color-outline: #747967;
+  --color-outline-variant: #c4c9b4;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
